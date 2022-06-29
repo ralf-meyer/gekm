@@ -1,0 +1,15 @@
+[project]
+name = 'gekm'
+version = '0.0.1'
+description = 'A package for gradient enhanced kernel machine learning models.'
+authors = [{name = 'Ralf Meyer', email = 'meyer.ralf@yahoo.com'}]
+dependencies = ['numpy']
+
+
+[project.optional-dependencies]
+tests = ['pytest', 'pytest-cov', 'pytest-resource-path', 'rmsd',
+         'numdifftools']
+
+[build-system]
+requires = ['setuptools>=42']
+build-backend = 'setuptools.build_meta'
